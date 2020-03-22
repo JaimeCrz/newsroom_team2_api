@@ -17,6 +17,7 @@ RSpec.describe 'Get/api/articles/', type: :request do
   describe 'GET/articles [sad path]' do
     it 'should return a 404 response' do
       get '/api/articles/2'
+      binding.pry
       expect(response.status).to eq 404
     end
   end

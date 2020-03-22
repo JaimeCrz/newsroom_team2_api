@@ -12,11 +12,7 @@ class Api::ArticlesController < ApplicationController
 
   def show
     article = Article.find(params[:id])
-    if article.nil?
-      render json: { message: "Sorry your article wasn't found" }, status: 404
-    else
-      render json: article, status: 200
-    end
+    render json: article, status: 200
   end
 
   def create
