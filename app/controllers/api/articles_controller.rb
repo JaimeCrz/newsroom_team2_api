@@ -9,7 +9,7 @@ class Api::ArticlesController < ApplicationController
     if collection_articles.empty?
       render json: { message: 'No articles has been found' }, status: 404
     else
-      render json: { articles: collection_articles }, status: 200
+      render json: { articles: collection_articles.reverse }, status: 200
    end
   end
 
