@@ -1,6 +1,13 @@
 # ![Urban Living](public/LogoOlive.png) (API)
+
+[![Build Status](https://semaphoreci.com/api/v1/blake-futchi/newsroom_team2_api/branches/development/badge.svg)](https://semaphoreci.com/blake-futchi/newsroom_team2_api)
+[![Coverage Status](https://coveralls.io/repos/github/JaimeCrz/newsroom_team2_api/badge.svg?branch=fixing_updated_geocode)](https://coveralls.io/github/JaimeCrz/newsroom_team2_api?branch=fixing_updated_geocode)
+
+
+
 # Some words
 The client wants three versions of a news application. The [visitors interface](https://github.com/kfrostare-Newsroom/newsroom_team2_news_app), the [admin interface](https://github.com/kfrostare-Newsroom/newsroom_team2_internal) and a [mobile application](https://github.com/kfrostare-Newsroom/newsroom_team2_mobile) plus of course a [API](https://github.com/kfrostare-Newsroom/newsroom_team2_api).
+
 # The MVP product
 **The MVP product will include a way for a visitor to:**
 * view a list of articles
@@ -14,18 +21,23 @@ The client wants three versions of a news application. The [visitors interface](
 * create an article
 * send said article for review with the editor
 * have said and approved article on the visitor site front page
+
 ## Authors
 | [Jaime Cruz](https://github.com/JaimeCrz) | [Johan Bons](https://github.com/johanbounce) | [Hunter Vitous](https://github.com/hmvitous) | [Anish Kanswal](https://github.com/Anish2504) | [Karolina Frostare](https://github.com/kfrostare) |
+
 ## Built with
 * Rails v.6.0.2.1
 * Ruby v.2.5.1
 * React v.16.12.0
+
 ## Testing framework
 * RSpec
 * Cypress
+
 ## Launched using
 * Heroku
 * Netlify
+
 ## Dependencies
 * Ruby
 * Rails
@@ -41,12 +53,15 @@ The client wants three versions of a news application. The [visitors interface](
 * Stripe-rails
 * Aws-sdk-s3
 * Geocoder
+
 ## Setup
 Due to the use of encrypted credentials this Repo can not be cloned. However we offer it to view here on GitHub for your coding inspiration.
-## Updates / Improvements
+
 ## License
+
 MIT-license
 ## Acknowledgements
+
 - Ground work with the help of previous team members [Blake Erickson](https://github.com/blake-futchi) and [Robin Lillqvist](https://github.com/robin-lillqvist)
 - Material provided by [Craft Academy](https://github.com/CraftAcademy)
 - [Oliver Ochman](https://github.com/oliverochman) for going on bug-quests with us
